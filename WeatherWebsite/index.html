@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	<title>The Weather</title>
+	<link rel="shortcut icon" href="img/weather.ico">
+</head>
+
+<body>
+
+	<div class="margin-top" align="center">
+		<h3>City Weather Finder </h3>
+		<!-- 4519950 Northridge id -->
+		<!-- 5513307 Pacoima id -->
+		<div class="card " style="width: 20rem;">			
+			<!-- Rounded switch -->
+			<label class="switch">
+  				<input type="checkbox" id="toggle-switch">
+  				<div class="slider round"></div>
+			</label>
+			<div>
+  				<img src="http://www.noaa.gov/sites/default/files/styles/crop_394x394/public/thumbnails/image/FocusArea__Weather-02.jpg?itok=fO6wu2A8" class="weather-img format-image" alt="Weather image ">
+  			</div>
+  			<div class="card-block">
+    			<h4 class="card-title" id="city">Weather in Northridge</h4>
+    			<p id="temp" class="bold"></p>
+  			</div>
+		</div>
+	</div>
+	<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	
+</body>
+</html>
